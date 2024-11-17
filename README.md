@@ -1,1 +1,2 @@
-# home-manager
+# Cloud CTRL Nix Home-Manager 
+

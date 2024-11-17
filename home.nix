@@ -26,9 +26,9 @@
     pkgs.tenv
     pkgs.awscli2
     pkgs.neovim
+    pkgs.eza
 
     pkgs.go
-    pkgs.rustup
     pkgs.rustc
     pkgs.cargo
   ];
