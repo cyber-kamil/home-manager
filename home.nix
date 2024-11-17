@@ -32,8 +32,8 @@
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
-    ".zshrc" .source = ~/dotfiles/zshrc/.zshrc;
-    "/home/kamil/.config/nvim" .source = ~/dotfiles/nvim;
+    ".zshrc" .source = ./dotfiles/zshrc/.zshrc;
+    "/home/kamil/.config/nvim" .source = ./dotfiles/nvim;
   };
 
   # Home Manager can also manage your environment variables through
