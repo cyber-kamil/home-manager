@@ -19,14 +19,18 @@
   # environment.
   home.packages = [
     pkgs.k9s
-    pkgs.tmux
     pkgs.kubectl
     pkgs.docker
     pkgs.kubectx
+
     pkgs.tenv
     pkgs.awscli2
     pkgs.neovim
-    pkgs.tenv
+
+    pkgs.go
+    pkgs.rustup
+    pkgs.rustc
+    pkgs.cargo
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
