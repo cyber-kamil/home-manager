@@ -133,5 +133,3 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

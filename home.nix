@@ -20,10 +20,18 @@
     pkgs.eza
 
     pkgs.go
-    pkgs.rustc
-    pkgs.cargo
     pkgs.python3
     pkgs.nodejs_22
+    pkgs.rustc
+    pkgs.cargo
+<<<<<<< Updated upstream
+    pkgs.python3
+    pkgs.nodejs_22
+=======
+    pkgs.lua
+    pkgs.luarocks
+    pkgs.gcc
+>>>>>>> Stashed changes
   ];
 
   home.file = {
