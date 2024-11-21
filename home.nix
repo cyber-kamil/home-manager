@@ -18,28 +18,32 @@
     pkgs.awscli2
     pkgs.neovim
     pkgs.eza
+    pkgs.jq
+    pkgs.argocd
 
     pkgs.go
     pkgs.python3
     pkgs.nodejs_22
     pkgs.rustc
     pkgs.cargo
-<<<<<<< Updated upstream
-    pkgs.python3
-    pkgs.nodejs_22
-=======
     pkgs.lua
     pkgs.luarocks
     pkgs.gcc
->>>>>>> Stashed changes
   ];
 
   home.file = {
     ".zshrc" .source = ./dotfiles/zshrc/.zshrc;
     "/home/kamil/.config/nvim" .source = ./dotfiles/nvim;
   };
+
   home.sessionVariables = {
     EDITOR = "nvim";
+  };
+
+  programs.git = {
+    enable = true;
+    userName = "cyber-kamil";
+    userEmail = "kamil.dev@outlook.com";
   };
   
   # Let Home Manager install and manage itself.
