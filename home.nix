@@ -25,6 +25,7 @@
     pkgs.python3
     pkgs.nodejs_22
     pkgs.rustc
+    pkgs.rust-analyzer
     pkgs.cargo
     pkgs.lua
     pkgs.luarocks
