@@ -13,6 +13,7 @@
     pkgs.kubectl
     pkgs.docker
     pkgs.kubectx
+    pkgs.ripgrep
 
     pkgs.tenv
     pkgs.awscli2
