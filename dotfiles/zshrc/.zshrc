@@ -68,7 +68,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # stamp shown in the history command output.
 # You can set one of the optional three formats:
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
+# or set a custom formatexport LOCAL_ANTON_DIR="$HOME/environment/aws-cloud-platform/anton/platform"
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
@@ -135,3 +135,21 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+
+export LOCAL_ANTON_DIR="$HOME/aldermore/platform"
+alias anton="${LOCAL_ANTON_DIR}/scripts/anton.sh"
+
+export TF_PLUGIN_CACHE_DIR=$HOME/.terraform.d/plugin_cache
+export GITLAB_USER=kamil.czarnecki_aldermore
+export GITLAB_TF_STATE_TOKEN=$GITLAB_ACCESS_TOKEN
+export TF_VAR_GITLAB_TOKEN=$GITLAB_ACCESS_TOKEN
+export TF_TOKEN_gitlab_com=$TF_VAR_GITLAB_TOKEN
+export TF_VAR_PAGERDUTY_TOKEN=""
+export TF_VAR_PORT_CLIENT_SECRET=""
+export TF_VAR_PORT_CLIENT_ID=""
+export DATADOG_SITE=datadoghq.eu
+export DATADOG_API_KEY=""
+export TF_VAR_DATADOG_API_KEY=$DATADOG_API_KEY
+export TF_VAR_DATADOG_APP_KEY=""
+export PRISMA_API_URL="https://api.uk.prismacloud.io"
+export PRISMA_BC_API_KEY=""
