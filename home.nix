@@ -13,13 +13,15 @@
     pkgs.kubectl
     pkgs.docker
     pkgs.kubectx
+
     pkgs.ripgrep
+    pkgs.fzf
+    pkgs.eza
+    pkgs.jq
 
     pkgs.tenv
     pkgs.awscli2
     pkgs.neovim
-    pkgs.eza
-    pkgs.jq
     pkgs.argocd
 
     pkgs.go
